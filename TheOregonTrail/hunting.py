@@ -1,9 +1,14 @@
+import random
+import weather
+
 class Hunt:
     def __init__(self):
         self.ammo = 0
         self.strength = 100
+        self.food = 0
+        self.chances = 80
 
-    def add_ammo(self, amount):
+    def add_ammo(self, amount): 
         self.ammo += amount
         print(f"You added {amount} ammo. Total ammo: {self.ammo}")
 
@@ -25,7 +30,6 @@ class Hunt:
 
             print(f"You found {found_food} lbs of food, and carried back {carried_food} lbs.")
         else:
-            print("You didn’t find anything this time.")
-
+            print("You didn't find anything this time.")
         print(f"Ammo left: {self.ammo}, Total food: {self.food}")
         

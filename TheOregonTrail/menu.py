@@ -1,5 +1,7 @@
 from trail import trail_info
 from main import main
+from clear import clear
+
 def menu():
     print("""
     You may:
@@ -22,13 +24,14 @@ def menu():
         main()
     elif option == 2:
         trail_info()
+        
     elif option == 3:
-        print("Showing the Oregon Top Ten...")
+        print("Showing the Oregon Top Ten... (does not exist)")
     elif option == 4:
-        print("Sound turned off.")
+        print("There is no sound...")
     elif option == 5:
-        print("Opening Management Options...")
+        print("Nothing exists here...")
     elif option == 6:
-        print("Ending program.")
+        print("Ending program....")
     else:
         print("Invalid choice. Please select a number from 1 to 6.")

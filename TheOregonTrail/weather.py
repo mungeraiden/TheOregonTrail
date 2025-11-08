@@ -1,4 +1,5 @@
 import random
+import hunting
 
 class Weather:
     WEATHER_TYPES = {
