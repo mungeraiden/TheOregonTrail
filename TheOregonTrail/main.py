@@ -121,7 +121,7 @@ def main():
 
         move = input("What is your choice? ")
 
-        if move == "1":+
+        if move == "1":
             
             mods = weather.get_modifiers()
             miles_today = int(30 * mods["travel_modifier"])
@@ -194,4 +194,5 @@ def main():
             running = False
 
         input("Press ENTER for next day")
+
 
